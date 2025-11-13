@@ -1,7 +1,0 @@
-{
-  "target": "http://testphp.vulnweb.com",
-  "services": {
-    "No assets were discovered": {}
-  },
-  "web_findings": []
-}
