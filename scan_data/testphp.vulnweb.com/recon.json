@@ -1,0 +1,15 @@
+{
+  "target": "http://testphp.vulnweb.com",
+  "subdomains": [
+    "No assets were discovered"
+  ],
+  "live_hosts": [
+    "http://No assets were discovered",
+    "https://No assets were discovered"
+  ],
+  "wayback_urls": [],
+  "httpx": [
+    "http://No assets were discovered",
+    "https://No assets were discovered"
+  ]
+}
