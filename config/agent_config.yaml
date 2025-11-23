@@ -1,0 +1,105 @@
+target_scope:
+  domains: []
+  urls: []
+  out_of_scope: []
+
+tools:
+  reconnaissance:
+    - subfinder
+    - amass
+    - httpx
+    - nmap
+  vulnerability_scanning:
+    - nuclei
+    - sqlmap
+    - ffuf
+
+ai:
+  primary_provider: "ollama"
+  strategy_model: "mistral:7b-instruct"    # Best for strategic analysis
+  code_model: "deepseek-coder:6.7b"        # Best for technical POC generation
+  fallback_model: "codellama:13b"          # Good general fallback
+  temperature: 0.3
+  max_tokens: 4000
+  
+  # Model-specific optimizations
+  model_prompts:
+    mistral:
+      system_prompt: "You are a senior cybersecurity expert specializing in penetration testing and vulnerability analysis. Provide specific, actionable recommendations based on technical findings."
+    deepseek-coder:
+      system_prompt: "You are a security engineer specializing in exploit development and proof-of-concept creation. Generate detailed, technical exploitation steps."
+    codellama:
+      system_prompt: "You are a security analyst providing comprehensive vulnerability assessment and remediation guidance."
+  
+model_capabilities:
+  mistral:7b-instruct:
+    strength: "security_analysis,report_generation,remediation_advice"
+    context: 8192
+    suitable_for: ["vulnerability_analysis", "risk_assessment", "poc_planning"]
+    
+  deepseek-coder:6.7b:
+    strength: "exploit_development,code_generation,tool_commands"
+    context: 4096
+    suitable_for: ["poc_code", "exploit_development", "tool_integration"]
+    
+  codellama:13b:
+    strength: "code_analysis,general_purpose"
+    context: 2048
+    suitable_for: ["fallback", "general_analysis"]
+
+limits:
+  max_requests_per_minute: 60
+  respect_robots_txt: true
+  user_agent: "Autonomous-Pentester-Agent/1.0"
+
+zap:
+  enabled: true  # Enable ZAP
+  path: "zap"
+  port: 8080
+  api_key: ""
+  active_scan_policy: "default"
+  max_scan_duration: 60
+  context: ""
+
+batch:
+  max_targets_per_batch: 50
+  default_workers_per_target: 3
+  timeout_per_target: 3600  # 1 hour max per target
+  
+# Advanced Testing Configuration
+advanced_tests:
+  authentication:
+    enabled: true
+    test_default_credentials: true
+    test_weak_passwords: true
+    test_session_management: true
+    
+  advanced_injection:
+    enabled: true
+    test_command_injection: true
+    test_xxe_injection: true
+    test_ssti_injection: true
+    test_nosql_injection: true
+    
+  business_logic:
+    enabled: true
+    test_idor: true
+    test_price_manipulation: true
+    test_workflow_bypass: true
+    test_mass_assignment: true
+
+test_payloads:
+  command_injection:
+    - ";id"
+    - "|id"
+    - "&&id"
+    - "`id`"
+    - "$(id)"
+    
+  xxe_injection:
+    - '<?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM "file:///etc/passwd">]><root>&test;</root>'
+    
+  ssti_injection:
+    jinja2: '{{7*7}}'
+    twig: '{{7*7}}'
+    freemarker: '${7*7}'
